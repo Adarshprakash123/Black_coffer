@@ -1,0 +1,35 @@
+/* Basic reset for margin and padding */
+body, html, #root {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #f0f2f5;
+  }
+  
+  h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+  }
+  
+  .ant-layout-header {
+    background-color: #001529 !important;
+  }
+  
+  .ant-card {
+    border-radius: 8px;
+  }
+  
+  .ant-card-body {
+    padding: 24px !important;
+  }
+  
+  /* Ensure the layout takes full height */
+  #root {
+    height: 100vh;
+  }
+  

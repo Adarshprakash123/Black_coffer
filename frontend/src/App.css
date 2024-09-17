@@ -1,0 +1,22 @@
+/* App.css */
+.site-layout .site-layout-background {
+  background: #38195e;
+}
+
+.logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.ant-layout-header {
+  background: #fff;
+}
+
+.ant-card {
+  border-radius: 10px;
+}
+
+.ant-card-title {
+  color: #1890ff;
+}
